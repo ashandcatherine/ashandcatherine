@@ -2,22 +2,42 @@
 layout: default
 ---
 
-<div class="home">
+<div class="row section-block">
+  <div class="row__col-6-of-12">
+    <div class="section-icon section-icon--venue"></div>
+    <h1>The venue</h1>
+    <p>Situated between Reading and Newbury, Ufton Court is a stunning manor house set against picturesque grounds and woodland. We will be getting married in the tithe barn.</p>
+  </div>
+  <div class="row__col-6-of-12">
+    <!--<img src="http://fillmurray.com/400/400" alt="" />-->
+  </div>
+</div>
+<div class="row section-block">
+  <div class="row__col-6-of-12">
+    <div class="section-icon section-icon--travel"></div>
+    <h1>Transport</h1>
+    <h2>Driving</h2>
+    <p>If you are planning to drive to the venue there should be no problem parking. For those using a Sat Nav, the postcode is <strong>RG7 4HD</strong>.</p>
+    <hr>
+    <h2>Public transport links</h2>
+    <p>If you are not driving, there aren't many options for buses or trains direct to the venue. Instead we reccomend booking a taxi.</p>
+    <hr>
+    <h2>Taxis</h2>
+    <p>We advise on booking a taxi in advance, the curfew is 11.30pm. Here is a list of taxi companies that serves this area:</p>
+  </div>
+  <div class="row__col-6-of-12">
+    <h3>1st Yellow Cars</h3>
+    <p>0118 966 0660</p>
+  </div>
+</div>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="row section-block">
+  <div class="row__col-6-of-12">
+    <div class="section-icon section-icon--hotel"></div>
+    <h1>Accomodation</h1>
+    <h2>Hotels</h2>
+  </div>
+  <div class="row__col-6-of-12">
+    <!--<img src="http://fillmurray.com/400/400" alt="" />-->
+  </div>
 </div>

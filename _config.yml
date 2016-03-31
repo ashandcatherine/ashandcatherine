@@ -7,12 +7,12 @@
 
 # Site settings
 title: Ash and Catherine
-email: your-email@domain.com
+email: ashandcatherine@gmail.com
 description: This is the site for our wedding
 baseurl: ""
 url: "http://ashandcatherine.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  ashandcatherine
 
 # Build settings
 markdown: kramdown

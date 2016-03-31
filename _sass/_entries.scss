@@ -1,0 +1,38 @@
+.section-block {
+  position: relative;
+  //background-color: pink;
+  margin-bottom: 2em;
+}
+
+.section-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid $light-grey;
+  background-color: $bg;
+  position: absolute;
+  left: -48px;
+  top: -5px;
+}
+
+.section-icon--venue {
+  background-image: url(../img/venue.svg);
+  background-position: center;
+}
+
+.section-icon--travel {
+  background-image: url(../img/travel.svg);
+  background-position: center;
+}
+
+.section-icon--hotel {
+  background-image: url(../img/hotel.svg);
+  background-position: center;
+}
+
+@media (max-width: 720px) {
+  .section-icon {
+    position: relative;
+    left: 0;
+  }
+}

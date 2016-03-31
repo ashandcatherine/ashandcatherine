@@ -1,0 +1,38 @@
+body {
+	font-family: $serif;
+	font-weight: 300;
+	color: $type;
+}
+
+strong {
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 1.625em;
+	font-weight: 800;
+	margin: 0 0 0.65em 0;
+	color: $blue;
+	letter-spacing: 0.5px;
+}
+
+h2 {
+	font-size: 1.25em;
+	font-weight: 100;
+	margin: 0 0 0.65em 0;
+	color: $grey;
+}
+
+
+p {
+	font-size: 0.875em;
+	line-height: 1.45;
+	font-weight: 100;
+	margin-bottom: 1em;
+}
+
+hr {
+	margin: 1em 0;
+	border: 0;
+	border-top: 1px solid $light-grey;
+}

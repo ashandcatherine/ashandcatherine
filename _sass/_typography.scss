@@ -18,13 +18,20 @@ h1 {
 
 h2 {
 	font-size: 1.25em;
-	font-weight: 100;
-	margin: 0 0 0.65em 0;
+	font-weight: 500;
+	margin: 0 0 0.5em 0;
 	color: $grey;
 }
 
+h3 {
+	font-size: 1em;
+	line-height: 1.45;
+	font-weight: 300;
+	margin-bottom: 0.5em;
+	color: $grey;
+}
 
-p {
+p, td {
 	font-size: 0.875em;
 	line-height: 1.45;
 	font-weight: 100;
@@ -35,4 +42,13 @@ hr {
 	margin: 1em 0;
 	border: 0;
 	border-top: 1px solid $light-grey;
+}
+
+a {
+	text-decoration: none;
+	color: $blue;
+	transition: ease 0.5s all;
+	&:hover{
+		color: $grey;
+	}
 }

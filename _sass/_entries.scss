@@ -5,13 +5,13 @@
 }
 
 .section-icon {
-  width: 40px;
-  height: 40px;
+  width: 41px;
+  height: 41px;
   border-radius: 50%;
   border: 1px solid $light-grey;
   background-color: $bg;
   position: absolute;
-  left: -48px;
+  left: -47px;
   top: -5px;
 }
 
@@ -30,9 +30,49 @@
   background-position: center;
 }
 
+.section-icon--small {
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  border: 1px solid $blue;
+  background-color: $blue;
+  position: relative;
+  left: 0;
+  text-align: center;
+  font-family: $sans;
+  line-height: 1.3;
+  padding: 3px;
+  font-weight: 600;
+  color: $white;
+  float: left;
+  margin: 5px 10px 10px 0;
+}
+
 @media (max-width: 720px) {
   .section-icon {
     position: relative;
     left: 0;
   }
+}
+
+
+// Hotels
+
+.hotel {
+  position: relative;
+  margin-bottom: 2em;
+  @include clearfix;
+}
+
+.hotel p {
+  margin-bottom: 0;
+}
+
+.hotel h3 {
+  margin-bottom: 0;
+}
+
+.hotel__info {
+  float: left;
+  width: calc(100% - 40px);
 }

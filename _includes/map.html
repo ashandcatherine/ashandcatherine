@@ -1,0 +1,123 @@
+<div id="map"></div>
+<script>
+function initMap() {
+  var ufton = {lat: 51.3960248, lng: -1.0996678};
+  var hotela = {lat: 51.4419451, lng: -1.0506505};
+  var hotelb = {lat: 51.4832231, lng: -1.0900086};
+  var hotelc = {lat: 51.3848505, lng: -1.1541919};
+  var hoteld = {lat: 51.4072567, lng: -1.129274};
+  var hotele = {lat: 51.3991381, lng: -1.0191865};
+  var hotelf = {lat: 51.4228794, lng: -1.0082021};
+  var hotelg = {lat: 51.4227995, lng: -0.9851842};
+  var hotelh = {lat: 51.413251, lng: -1.270771};
+  var hoteli = {lat: 51.412654, lng: -1.090392};
+  var hotelj = {lat: 51.482443, lng: -1.048857};
+  var hotelk = {lat: 51.362665, lng: -1.025179};
+  var uftonlabel = '/img/map/ufton-map-label.svg';
+  var hotelalabel = '/img/map/hotel-map-label-a.svg';
+  var hotelblabel = '/img/map/hotel-map-label-b.svg';
+  var hotelclabel = '/img/map/hotel-map-label-c.svg';
+  var hoteldlabel = '/img/map/hotel-map-label-d.svg';
+  var hotelelabel = '/img/map/hotel-map-label-e.svg';
+  var hotelflabel = '/img/map/hotel-map-label-f.svg';
+  var hotelglabel = '/img/map/hotel-map-label-g.svg';
+  var hotelhlabel = '/img/map/hotel-map-label-h.svg';
+  var hotelilabel = '/img/map/hotel-map-label-i.svg';
+  var hoteljlabel = '/img/map/hotel-map-label-j.svg';
+  var hotelklabel = '/img/map/hotel-map-label-k.svg';
+
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 12,
+    center: ufton,
+    scrollwheel: false,
+  });
+
+  var marker = new google.maps.Marker({
+    position: ufton,
+    map: map,
+    title: 'Ufton Court',
+    icon: uftonlabel
+  });
+
+  var marker = new google.maps.Marker({
+    position: hotela,
+    map: map,
+    title: 'Hotel A',
+    icon: hotelalabel
+  });
+
+  var marker = new google.maps.Marker({
+    position: hotelb,
+    map: map,
+    title: 'Ufton Court',
+    icon: hotelblabel
+  });
+
+  var marker = new google.maps.Marker({
+    position: hotelc,
+    map: map,
+    title: 'Ufton Court',
+    icon: hotelclabel
+  });
+
+  var marker = new google.maps.Marker({
+    position: hoteld,
+    map: map,
+    title: 'Ufton Court',
+    icon: hoteldlabel
+  });
+
+  var marker = new google.maps.Marker({
+    position: hotele,
+    map: map,
+    title: 'Ufton Court',
+    icon: hotelelabel
+  });
+
+  var marker = new google.maps.Marker({
+    position: hotelf,
+    map: map,
+    title: 'Ufton Court',
+    icon: hotelflabel
+  });
+
+  var marker = new google.maps.Marker({
+    position: hotelg,
+    map: map,
+    title: 'Ufton Court',
+    icon: hotelglabel
+  });
+
+  var marker = new google.maps.Marker({
+    position: hotelh,
+    map: map,
+    title: 'Ufton Court',
+    icon: hotelhlabel
+  });
+
+  var marker = new google.maps.Marker({
+    position: hoteli,
+    map: map,
+    title: 'Ufton Court',
+    icon: hotelilabel
+  });
+
+  var marker = new google.maps.Marker({
+    position: hotelj,
+    map: map,
+    title: 'Ufton Court',
+    icon: hoteljlabel
+  });
+
+  var marker = new google.maps.Marker({
+    position: hotelk,
+    map: map,
+    title: 'Ufton Court',
+    icon: hotelklabel
+  });
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+  async defer>
+</script>

@@ -33,6 +33,11 @@
   .site-content {
     width: 100%;
     padding: 20px;
+    margin: 0;
+  }
+
+  .site-header {
+    background-color: $blue;
   }
 }
 
@@ -47,8 +52,8 @@
 
 .row__col-3-of-12 {
   float: left;
-  width: 23%;
-  margin: 0 1%;
+  width: 21%;
+  margin: 0 2%;
 }
 
 .row__col-6-of-12 {
@@ -59,11 +64,17 @@
 
 .row__col-9-of-12 {
   float: left;
-  width: 73%;
-  margin: 0 1%;
+  width: 71%;
+  margin: 0 2%;
 }
 
-@media (max-width: 720px) {
+.row__col-12-of-12 {
+  float: left;
+  width: 96%;
+  margin: 0 2%;
+}
+
+@media (max-width: 920px) {
   .row__col-3-of-12,
   .row__col-6-of-12,
   .row__col-9-of-12 {

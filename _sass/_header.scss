@@ -1,5 +1,6 @@
 .crane {
   fill: $blue;
+  transition: ease 0.5s all;
 }
 
 .crane-logo {
@@ -10,44 +11,66 @@
   border-radius: 50%;
   box-sizing: border-box;
   margin: 0 auto 2em;
-  //padding-top: 40px;
+  transition: ease 0.5s all;
 }
 
 .site-header__container {
-  //border-right: 1px solid $light-grey;
-  //height: 600px;
   margin-top: 40px;
 }
 
 .subtitle {
-  //text-transform: uppercase;
   font-size: 0.85em;
   letter-spacing: 1.12px;
   text-align: center;
   margin-bottom: 0.75em;
+  transition: ease 0.5s all;
 }
 
 .title {
-  //text-transform: uppercase;
   font-size: 1.5em;
   letter-spacing: 1px;
   text-align: center;
   font-weight: 500;
   margin-bottom: 0.5em;
+  transition: ease 0.5s all;
 }
 
 .date {
-  //text-transform: uppercase;
   font-size: 0.85em;
   letter-spacing: 1.12px;
   text-align: center;
   margin-bottom: 0.25em;
+  transition: ease 0.5s all;
 }
 
 @media (max-width: 720px) {
+  .crane {
+    fill: $white;
+  }
+
+  .crane-logo {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    padding: 0px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 0 0 15px;
+  }
+
+  .site-header__container {
+    margin-top: 0;
+  }
+
   .subtitle,
   .title,
   .date {
-    //text-align: left;
+    color: $white;
+    text-align: left;
+  }
+
+  .subtitle,
+  .date {
+    opacity: 0.5;
   }
 }

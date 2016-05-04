@@ -11,7 +11,7 @@ $base-font-weight: 400;
 $base-line-height: 1.5;
 
 $type: #393939;
-$blue: #1D4189;
+$blue: #1f4289;
 $grey: #999;
 $light-grey: #EDEDED;
 $bg: #FDFDFD;
@@ -32,7 +32,8 @@ body {
   line-height: $base-line-height;
   font-family: $sans;
   background-image: url(/img/bg-pattern.png);
-  background-color: $bg;
+  background-attachment: fixed;
+  background-color: $blue;
   background-repeat: repeat;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -41,6 +42,7 @@ body {
 @import "base";
 @import "typography";
 @import "tables";
+@import "forms";
 @import "layout";
 @import "header";
 @import "entries";

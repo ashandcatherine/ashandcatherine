@@ -16,3 +16,6 @@ github_username:  ashandcatherine
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-redirect-from

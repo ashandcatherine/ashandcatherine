@@ -1,0 +1,61 @@
+form {
+  font-size: 0.875em;
+  line-height: 1.45;
+  font-weight: 100;
+  margin-bottom: 1em;
+}
+
+input, textarea {
+  margin-bottom: 2em;
+  box-sizing: border-box;
+}
+
+input[type=text], input[type=email], textarea{
+  display: block;
+  padding: 1em;
+  border: 1px solid $light-grey;
+  width: 50%;
+  font-size: 0.95em;
+  font-family: $serif;
+  font-weight: 100;
+  color: $type;
+  transition: ease 0.5s all;
+  &:focus,{
+    border: 1px solid $grey;
+    outline:0px none transparent;
+  }
+}
+
+input[type=radio]{
+
+}
+
+form hr{
+  margin-bottom: 2em;
+  width: 50%;
+}
+
+input[type=submit]{
+  background:none;
+  border:none;
+  font-size:1em;
+  color:blue;
+  background-color: $blue;
+  padding: 15px 60px;
+  color: $white;
+  font-family: $sans;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: ease 0.5s all;
+  &:hover{
+    background-color: $grey;
+  }
+}
+
+@media (max-width: 960px) {
+  input[type=text], input[type=email], textarea, form hr{
+    width: 100%;
+  }
+}

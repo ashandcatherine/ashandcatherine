@@ -1,0 +1,57 @@
+body {
+	font-family: $serif;
+	font-weight: 300;
+	color: $type;
+}
+
+strong {
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 1.625em;
+	font-weight: 100;
+	margin: 0 0 0.65em 0;
+	color: $blue;
+}
+
+h2 {
+	font-size: 1.25em;
+	font-weight: 500;
+	margin: 0 0 0.5em 0;
+	color: $grey;
+}
+
+h3 {
+	font-size: 1em;
+	line-height: 1.45;
+	font-weight: 300;
+	margin-bottom: 0.5em;
+	color: $grey;
+}
+
+p, td {
+	font-size: 0.875em;
+	line-height: 1.45;
+	font-weight: 100;
+	margin-bottom: 1em;
+}
+
+.intro {
+	font-size: 1.25em;
+}
+
+hr {
+	margin: 1em 0;
+	border: 0;
+	border-top: 1px solid $light-grey;
+}
+
+a {
+	text-decoration: none;
+	color: $blue;
+	transition: ease 0.5s all;
+	&:hover{
+		color: $grey;
+	}
+}

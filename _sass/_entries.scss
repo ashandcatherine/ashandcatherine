@@ -1,0 +1,104 @@
+.section-block {
+  position: relative;
+  //background-color: pink;
+  margin-bottom: 2em;
+}
+
+.section-icon {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  border: 1px solid $light-grey;
+  background-color: $bg;
+  position: absolute;
+  left: -47px;
+  top: -5px;
+}
+
+.section-icon--venue {
+  background-image: url(../img/venue.svg);
+  background-position: center;
+}
+
+.section-icon--travel {
+  background-image: url(../img/travel.svg);
+  background-position: center;
+}
+
+.section-icon--hotel {
+  background-image: url(../img/hotel.svg);
+  background-position: center;
+}
+
+.section-icon--map {
+  background-image: url(../img/map.svg);
+  background-position: center;
+}
+
+.section-icon--crane {
+  background-image: url(../img/crane.svg);
+  background-position: center;
+}
+
+.section-icon--small {
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  border: 1px solid $blue;
+  background-color: $blue;
+  position: relative;
+  left: 0;
+  text-align: center;
+  font-family: $sans;
+  line-height: 1.4;
+  padding: 2px;
+  font-weight: 800;
+  color: $white;
+  float: left;
+  margin: 5px 10px 10px 0;
+}
+
+@media (max-width: 720px) {
+  .section-icon {
+    position: relative;
+    left: 0;
+  }
+}
+
+
+// Hotels
+
+.hotel {
+  position: relative;
+  margin-bottom: 2em;
+  @include clearfix;
+}
+
+.hotel p {
+  margin-bottom: 0;
+}
+
+.hotel h3 {
+  margin-bottom: 0;
+}
+
+.hotel__info {
+  float: left;
+  width: calc(100% - 40px);
+}
+
+.video-embed {
+  position: relative;
+  width: 100%;
+  height: 0px;
+  padding-bottom: 60%;
+  margin-bottom: 1em;
+}
+
+.video-embed iframe {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
